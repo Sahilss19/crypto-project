@@ -1,10 +1,8 @@
 import React from "react";
 import ExpandLessRoundedIcon from "@mui/icons-material/ExpandLessRounded";
 function TopButton() {
-  // Get the button
   let mybutton = document.getElementById("top-btn");
 
-  // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function () {
     scrollFunction();
   };
